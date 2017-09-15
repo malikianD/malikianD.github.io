@@ -1,0 +1,77 @@
+<!--    Derek Malikian
+        July 20, 2017
+        Assignment 6
+-->
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        
+        <meta charset = "utf-8">
+        <title>Assignment Six</title>
+        <link href="style.css" type="text/css" rel="stylesheet" />
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <script src="main.js" type="text/javascript"></script> 
+    
+    </head>
+    
+    <body>
+        
+        <h1>Ajax and JQuery</h1>
+        
+        <form class = "form_style">
+            
+            Payment Type: <br><br>
+            
+            Credit Card 
+            <input type = "radio" name = "pay" value = "credit_card" id = "CC">
+            
+            Wire Transfer
+            <input type = "radio" name = "pay" value = "wire_transfer" id = "WT">
+        
+            <button type = "button" id = "test" onclick = "validate()">Buy</button>
+            
+        </form>
+               
+            <p id = "test1" hidden>This is a test</p>
+                   
+            <form id = "for_form" class = "form_style">
+                <p id = "test2" hidden>
+                Card Number:
+                <input type = "text" id = "CC1" ><br><br>
+                Expiration: 
+                <input type = "text" id = "month">/<input type = "text" id = "day"><br><br>
+                3-digit security number: 
+                <input type = "text" id = "security_number"> 
+                    <br><br>
+                    <button type = "reset">Reset</button>
+                </p>
+                
+            
+               <p id = "test3" hidden>Transfer the amount to: reg. $957.00, to account 0009286322</p>
+                
+        </form>
+        
+        
+        <div class = "trash01">
+        <h2>Drag these to the trash</h2>
+        <ul>
+            <li draggable="true" ondragstart = "drag(event)" id = "drag01">Open a checking account</li>
+            <li draggable="true" ondragstart = "drag(event)" id = "drag02">Open a savings account</li>
+            <li draggable="true" ondragstart = "drag(event)" id = "drag03">Order a new credit card</li>
+        </ul>
+        </div>
+        
+      <div class = "trash02">
+        <img id = "trash" src = "trash_can.png" class = "trash" ondrop = "drop(event)" ondragover = "allowDrop(event)">
+    <br>
+        </div>
+        <button type = "button" onclick = "loadDoc()">Click for more information</button>
+        <br><br>
+        <div id = "demo55"></div>
+        
+       
+        
+    </body>
+</html>

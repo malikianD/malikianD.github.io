@@ -1,0 +1,106 @@
+/*  Derek Malikian
+    Assignment Three
+    Web Programming 4370
+    July 1, 2017
+    CSS
+*/
+
+/* Set the color for the main background */
+body {
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* Set the color for the body */
+.bodyGrey {
+    background-color: lightgrey;
+}
+
+/* class for the header h1*/
+.heading01 {
+    font-size: 50px;
+    font-family: futura; 
+    text-shadow: 2px 2px black;
+    padding-left: 50px;
+    height: 80px;
+    padding-top: 20px;
+    background-color: #CD0000; /* red3 */
+    color: antiquewhite;
+    border-right: 50px solid #8B0000; /* darkred */
+    border-left: 50px solid #8B0000; /* darkred */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   /* give the heading box some shadow */
+}
+
+/* styling for the checker board */
+table {
+    border: 1px black solid;
+    width: 300px; 
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    float: left;
+    border-spacing: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* styling for the black cells */
+td.black {
+    height: 35px;
+    width: 35px;
+    background-color: black;   
+}
+
+/* styling for the red cells */
+td.red {
+    height: 35px;
+    width: 35px;
+    background-color: red;
+}
+
+/* styling for the h2 header */
+h2 {
+    font-size: 35px;
+    font-family: futura;
+    text-shadow: 2px 2px white;   
+}
+
+/* styling for the h3 header */
+h3 {
+    font-size: 25px;
+    font-family: futura; 
+    text-shadow: 2px 2px white;
+}
+
+/* class for the paragraph styling */
+p.one {
+    font-size: 15px;
+    font-family: futura;
+    margin-left: 320px;
+    margin-right: 25px;   
+}
+
+/* class for the code snippet styling */
+.codeBack {
+    background-color: #3A3A38;
+    border-right: 50px solid #8B8B83; /* darkred */
+    border-left: 50px solid #8B8B83; /* darkred */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+}
+
+/* styling for the footer */
+footer {
+    background-color: #CD0000;
+    color: antiquewhite;
+    font-family: futura;
+    text-shadow: 2px 2px black;
+    border-right: 50px solid #8B0000; /* darkred */
+    border-left: 50px solid #8B0000;
+    height: 80px;
+    padding-top: 5px;
+    margin-top: 15px;
+    padding-left: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

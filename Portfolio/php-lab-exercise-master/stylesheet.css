@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+}
+
+.bodyOne {
+    background-color: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.headingOne {
+    font-size: 40px;
+    font-family: futura;
+    text-shadow: 2px 2px grey;
+    text-align: center;
+    height: 80px;
+    padding-top: 20px;
+    color: white; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+    
+    background: linear-gradient(#0276FD, #75A1D0);
+    border-radius: 5px;
+}
+
+.bodyTwo {
+    padding: 30px;
+    font-size: 20px;
+    font-family: futura;
+    color: white;
+    text-shadow: 2px 2px grey;
+    background: linear-gradient(#0276FD, #75A1D0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.bodyThree {
+  
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    
+    font-family: futura;
+    color: white;
+    text-shadow: 2px 2px grey;
+    background: linear-gradient(#0276FD, #75A1D0);  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+    border-radius: 5px;
+    
+    
+}
+
+footer {
+    font-size: 15px;
+    font-family: futura;
+    color: white;
+    text-shadow: 2px 2px grey;
+    padding: 7px;
+    margin 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+    background: linear-gradient(#0276FD, #75A1D0);
+    border-radius: 5px;
+    
+}

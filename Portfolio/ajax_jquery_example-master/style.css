@@ -1,0 +1,63 @@
+body {
+    background-color: #EBEBEB;
+}
+
+#trash {
+    width: 60px;
+    height: 60px;
+}
+
+img {
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    font-size: 50px;
+    margin-top: -4px;
+    font-family: monospace;
+    background-color: #228B22;
+    color: white;  
+}
+
+h2.item2 {
+    font-family: monospace;
+    font-size: 30px;
+}
+form.form_style {
+    padding: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+div.trash01 {
+    padding: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+button {
+    font-family: monospace;   
+    font-size: 20px;   
+}
+
+img.trash {
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+div.for_pics {
+     padding: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li.pics_list {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+

@@ -1,0 +1,274 @@
+
+
+div.for_header {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: futura;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(to bottom right, #FF5721, #E8E8E8);
+    margin-bottom: 50px;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+    color: white;
+}
+
+li {
+    display: inline;
+    padding-right: 3px;
+    padding-left: 150px;
+    font-size: 20px;
+    text-shadow: 2px 2px #104E8B;   
+}
+
+li.headr {
+    font-size: 40px;
+    padding-right: 400px;
+    text-shadow: 2px 2px #104E8B;   
+}
+
+body.for_home_page {
+    background-color: #CAE1FF;   
+}
+
+
+img.for_self_pic {
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 175px;  
+    position: absolute;
+    margin-left: 587px;
+    margin-top: 290px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;   
+}
+
+div.for_circle {
+    width: 250px;
+	height: 250px;
+	background: #BFEFFF;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 300px;
+    text-align: center;
+    font-family: futura;
+    font-size: 20px;
+    float: center;
+    text-shadow: 1px 1px #104E8B;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 250px;
+    -webkit-transition: -webkit-transform 3s ease-in-out;
+    transition: transform 3s ease-in-out;
+}
+
+div.for_circle:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+div.for_circle01 {
+    width: 350px;
+	height: 350px;
+    background: #82CFFD;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 300px;
+    text-align: center;
+    font-family: futura;
+    font-size: 20px;
+    float: center;
+    text-shadow: 1px 1px #104E8B;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 200px;    
+    -webkit-transition: -webkit-transform 3s ease-in-out;
+    transition: transform 3s ease-in-out;
+}
+
+div.for_circle01:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+div.for_circle02 {
+    width: 450px;
+	height: 450px;
+	background: #60AFFE;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 300px;
+    text-align: center;
+    font-family: futura;
+    font-size: 20px;
+    float: center;
+    text-shadow: 1px 1px #104E8B;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 150px;
+    -webkit-transition: -webkit-transform 3s ease-in-out;
+    transition: transform 3s ease-in-out;
+}
+
+div.for_circle02:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+div.for_circle03 {
+    width: 550px;
+	height: 550px;
+	background: #499DF5;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 600px;
+    text-align: center;
+    font-family: futura;
+    font-size: 20px;
+    float: center;
+    text-shadow: 1px 1px #104E8B;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 100px;
+    -webkit-transition: -webkit-transform 3s ease-in-out;
+    transition: transform 3s ease-in-out;
+}
+
+div.for_circle03:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
+
+div.for_circle04 {
+    width: 650px;
+	height: 650px;
+	background: #0276FD;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 400px;
+    text-align: center;
+    font-family: futura;
+    font-size: 20px;
+    float: center;
+    text-shadow: 1px 1px #104E8B;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 50px;
+     -webkit-transition: -webkit-transform 3s ease-in-out;
+    transition: transform 3s ease-in-out;
+}
+
+div.for_circle04:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+div.for_circle05 {
+    width: 750px;
+	height: 750px;
+	background: #104E8B;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 500px;
+    text-align: center;
+    font-family: futura;
+    font-size: 20px;
+    float: center;
+    text-shadow: 1px 1px #104E8B;
+    position: absolute;
+    margin-left: 300px;
+    -webkit-transition: -webkit-transform 3s ease-in-out;
+    transition: transform 3s ease-in-out;
+}
+
+div.for_circle05:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+div.for_circle06 {
+    width: 850px;
+	height: 850px;
+	background: #162252;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 500px;
+    text-align: center;
+    font-family: futura;
+    font-size: 20px;
+    float: center;
+    text-shadow: 1px 1px #104E8B;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -50px;
+    -webkit-transition: -webkit-transform 3s ease-in-out;
+    transition: transform 3s ease-in-out;
+}
+
+div.for_circle06:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.dropdown {
+    float: right;
+    padding-right: 100px;
+    padding-top: 15px; 
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 25px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+

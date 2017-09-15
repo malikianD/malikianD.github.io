@@ -1,0 +1,258 @@
+/*  Derek Malikian
+    Assignment 4
+    CSS
+*/
+
+
+body.pay {
+    background-image: url(payroll.png);  
+    background-size: cover;  
+}
+
+body.memory_game {
+    background-image: url(beach_one.png);
+    background-size: cover;
+}
+
+h1.pay {
+    font-size: 60px;
+    background-color: #FEF0DB;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: futura;  
+    text-align: center;
+    color: #734A12;
+    border-top: 10px solid #734A12;
+    opacity: .8;
+      
+}
+
+h1.guess {
+    background-color: #00BFFF;
+    font-size: 60px;
+    padding: 5px;
+    text-align: center;
+    font-family: futura;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    color: white;
+}
+
+h1.memory {
+    font-size: 50px;
+    font-family: futura;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    opacity: .8;
+    color: #0D4F8B;
+    
+}
+h2.head2_pay {
+    font-family: futura;
+}
+
+h2.head2_guess {
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    font-family: futura;
+    background-color: #FFE303;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    top: 0;
+    width: 99%;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: futura;  
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 150px;
+    border-right: 1px solid black;
+}
+
+span.for_list {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 200px;
+    border-right: 1px solid black;
+    
+}
+
+li a:hover {
+    background-color: #DEB887;
+}
+
+table {
+    border-collapse: collapse;
+    width: 99%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: .8;  
+}
+
+th {
+    height: 50px;
+    background-color: #734A12;
+    width: 60px;
+    opacity: .8;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    background-color: #FEF0DB;
+    color: #734A12;
+    opacity: .8;
+    
+}
+
+div.pay_one {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FEF0DB;
+    width: 99%;
+    padding: 5px;
+    font-family: futura;
+    color: #734A12;
+    opacity: .8;
+    border-top: 10px solid #734A12;
+    margin-bottom: 18px;
+}
+
+div.pay_two {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FEF0DB;
+    width: 99%;
+    padding: 5px;
+    padding-top: 5px;
+    font-family: futura;
+    color: #734A12;
+    opacity: .8;
+    border-top: 10px solid #734A12;
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+
+div.guess_input {
+    background-image: url(question.png);
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+    padding: 40px;    
+}
+
+div.guess_input02 {
+    background-color: #DB70DB;
+    height: 200px;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: .9;      
+}
+
+div.guess_output {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-family: futura;
+    font-size: 30px;
+    background-color: #C8F526;    
+}
+
+div.guess_timer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-family: futura;
+    background-color: #FF7216;
+}
+
+div.instructions {
+    background-color: white;
+    text-align: center;
+    opacity: .8;
+    font-family: futura;
+    font-size: 20px;
+    color: #0D4F8B;
+}
+input.pay_input {
+    height: 20px;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input.input_for_guess {
+    height: 40px;
+    width: 200px;
+    font-size: 30px;
+    margin-left: 40%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button.pay_button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 20px;
+    font-size: 12px;
+    color: #734A12; 
+}
+
+button.guess_button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 40%;
+    height: 40px;
+    width: 200px;
+    font-size: 30px;
+    font-family: futura;
+    background-color: ;
+}
+
+footer {
+    
+    background-color: #FEF0DB;
+    color: #734A12;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+div#memory_board{
+	background: #FA8072;
+	border: 1px solid white;
+	width: 810px;
+    
+	height: 540px;
+	padding: 24px;
+	margin: 0px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+div#memory_board > div{
+	background-image: url(card_back_two.png);
+	border: 1px solid white;
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+	font-size: 64px;
+	cursor: pointer;
+	text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}

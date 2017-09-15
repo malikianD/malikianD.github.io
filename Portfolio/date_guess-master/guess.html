@@ -1,0 +1,88 @@
+<!-- Derek Malikian
+     July 6, 2017
+     JavaScript Exercise
+     Assignment 1  
+-->
+
+<!DOCTYPE html>
+<html lang = "en">
+    
+    <head>
+        
+        <meta charset = "utf-8">
+        <title>Guessing Game</title>
+        <link rel = "stylesheet" type = "text/css" href = "stylesheet.css">
+        
+    </head>
+    
+    <body>
+        
+       <h1>GUESSING GAME</h1>
+        
+        <div>
+            <p>Please enter a number between 1 - 1000 and click the guess button</p>
+        
+            <input id = "num">
+        
+        
+            <script>
+            
+                var x = Math.floor(Math.random() * 1000) + 1;
+          
+                var count = 0;    
+            
+            function guesser() {
+                var y, text;
+                
+                count++;
+                
+                y = document.getElementById("num").value;
+                
+              
+                
+                if (isNaN(y) || y < 1 || y > 1000) {
+                    
+                    text = "Input not valid";
+                }
+                
+                
+                if (y > x)
+                    {
+                        text = "The number you entered is greater, choose again please.";
+                    }
+                
+                if (y < x)
+                    {
+                        text = "The number you entered is less, choose again please";
+                    }
+                
+                if (y == x)
+                    {
+                        text  = "Congratulations, it took you " + count + " time(s) to guess correctly";
+                        
+                    }
+                
+                
+                document.getElementById("demo").innerHTML = text;
+                
+            }
+            
+            </script>
+        
+            <button type="button" onclick="guesser()">Guess</button>
+        
+            <p id = "demo"></p>
+            
+            <br><br>
+            
+             <p>Assignment 1: <br>
+                Write a program to choose and store a random number between 1 and 1000.  Allow the user to choose the number until getting it right.  Tell the user in each turn whether the guess was too high or too low.</p>
+        </div> 
+        
+        <footer>
+            <p>Created by: Derek Malikian <br>
+            CSC 4370 Web Development</p>
+        </footer>
+        
+    </body>
+</html>
