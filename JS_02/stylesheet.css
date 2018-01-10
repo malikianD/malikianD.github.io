@@ -1,0 +1,65 @@
+/*  Derek Malikian
+    July 6, 2017
+    JavaScript Exercise
+    CSS page 
+*/
+
+
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    background-color: #FFE600;
+    font-size: 50px;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: futura;
+    /*border-right: 600px solid grey;*/
+    border-left: 50px solid grey;
+    color: black;
+    text-shadow: 2px 2px white;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    
+}
+
+p {
+    font-family: futura;
+    font-size: 20px;
+    margin-left: 60px;
+    padding-top: 10px;
+    text-shadow: 2px 2px white;
+}
+
+div {
+    background-color: #FFE600;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-left: 50px solid grey;
+    margin-top: -20px;
+    
+}
+
+input {
+    margin-left: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+footer {
+    background-color: #FFE600;
+    font-family: futura;
+    border-left: 50px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    padding-bottom: 2px;
+    
+    
+}
+
+button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    
+}
+

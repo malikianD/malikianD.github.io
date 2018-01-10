@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment Four</title>
+        <script type = "text/javascript" src = "main.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body class = "pay">
+        
+            <ul>
+            <li><a href="https://grid.cs.gsu.edu/~csclxh/csc4370_6370/Assignments/Assignment_javascript.htm">Assignment 4</a></li>
+            <li><a href="index.html">Payroll Report</a></li>
+            <li><a href="guess.html">Guessing Game</a></li>
+            <li><a href="card.html">Memory Card</a></li>
+            <li><span id ="time" class = "for_list"></span></li>
+            
+            </ul>
+            <br>
+                <h1 class = "pay">Payroll Report</h1>
+        
+        <div class = "pay_one">
+            
+            <h2 class = "head2_pay">Enter Employee Hours</h2>
+            
+                <p>Please enter the number of hours worked this week</p>
+        
+                <input id = "hours" class = "pay_input">
+        
+                <button class = "pay_button" type = "button" onclick = "createRow()">Enter</button>
+                <br>
+                <br>
+        </div>
+        
+        <div class = "pay_two">
+            
+            The total pay for this week is: $ <span id = "total"></span>
+            
+        </div>
+        
+        <table id = "payTable">
+            <tr>
+                <th>ID</th>
+                <th>Hours</th>
+                <th>Pay</th>
+            </tr>
+        </table>
+            
+       
+    </body>
+    
+</html>
