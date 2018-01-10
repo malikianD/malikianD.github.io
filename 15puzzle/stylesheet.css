@@ -1,0 +1,144 @@
+/*******************************************************************************************************
+    Project 3: Fifteen Puzzle
+    Created by: Nicholas Clark, Anthony Thompson, & Derek Malikian
+    July 18, 2017
+    CSS file 
+*******************************************************************************************************/
+
+
+/* The css for the body will give the background image a faded look */
+
+body {
+    background-size: cover;
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("skyline2.png");  
+}
+
+/*This is for the div that holds the buttons, move counter, and time*/
+
+div.place_content {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: linear-gradient(to bottom right, #26466D, #7D9EC0);   
+}
+
+/*This is for the puzzle gameboard*/
+
+#gameboard {
+    font-family: sans-serif;
+    font-size: 32pt;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 5px solid red;
+    border-radius: 10px;
+    opacity: .9;
+}
+
+/*This is for the puzzle pieces*/
+
+.puzzlepiece {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    cursor: pointer;
+    height: 96px;
+    line-height: 96px;
+    text-align: center;
+    vertical-align: middle;
+    width: 96px;
+    border: 2px solid black;  
+    transition: transform .8s ease-in-out;
+}
+
+/*This is for the pieces that can be moved, with the hover option*/
+.movablepiece:hover {
+    color: #006600;
+    font-weight: bold;
+    font-size: 36pt;
+    text-decoration: underline;
+    border: 2px solid red;  
+    transform: rotateY(360deg);   
+}
+
+/*This is for the number of moves and time content*/
+span, #counter {
+    text-align: center;
+}
+
+/*This is for the main header*/
+h1 {
+    font-size: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    background: #0D4F8B;
+    background: linear-gradient(to bottom right, #26466D, #7D9EC0);
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: futura;
+    opacity: .9;
+    border-radius: 10px;
+}
+
+/*This is for the buttons shuffle and reset*/
+button {
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 22px;
+    font-family: futura;
+    background-color: red;
+    color: white;
+    opacity: .9;
+    margin: 10px;
+    text-shadow: 2px 2px 5px black;      
+}
+
+/*This is for the moves and time*/
+div.moves_time {
+    color: white;
+    font-family: futura;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px black;
+    
+}
+
+/*This is for the footer*/
+footer.footer_01 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: futura;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #26466D, #7D9EC0);
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+    padding-left: 20px;
+    text-shadow: 2px 2px 5px black;
+    width: 250px;
+    margin-left: auto;   
+}
+
+/*This is for the W3C logo*/
+img.logo {
+    width: 100px;
+    border-radius: 10px;  
+}
+#selection{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-family: futura;
+}
+.choice{
+    height: 400px;
+    width: 400px;
+}
